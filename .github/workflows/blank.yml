@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andy Chavez's Introduction</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+            padding: 20px;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+        }
+        
+        header {
+            background: linear-gradient(to right, #2575fc, #6a11cb);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 2.8rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        
+        h2 {
+            font-size: 1.6rem;
+            font-weight: 300;
+            opacity: 0.9;
+        }
+        
+        .content {
+            padding: 30px;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        h3 {
+            color: #2575fc;
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+        
+        h3 i {
+            margin-right: 10px;
+            color: #6a11cb;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+        }
+        
+        .highlight {
+            background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+            padding: 3px 6px;
+            border-radius: 4px;
+            font-weight: 600;
+        }
+        
+        .image-container {
+            text-align: center;
+            margin: 25px 0;
+        }
+        
+        img {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            border: 5px solid #2575fc;
+        }
+        
+        ul {
+            list-style: none;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border-left: 5px solid #6a11cb;
+        }
+        
+        li {
+            margin-bottom: 12px;
+            padding: 10px;
+            background: white;
+            border-radius: 6px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s;
+        }
+        
+        li:hover {
+            transform: translateX(5px);
+        }
+        
+        a {
+            color: #2575fc;
+            text-decoration: none;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+        }
+        
+        a:hover {
+            color: #6a11cb;
+            text-decoration: underline;
+        }
+        
+        a i {
+            margin-right: 8px;
+        }
+        
+        .email {
+            color: #2575fc;
+            font-weight: 600;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #f8f9fa;
+            border-top: 1px solid #eee;
+        }
+        
+        .thank-you {
+            font-size: 1.8rem;
+            color: #6a11cb;
+            font-weight: 700;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.2rem;
+            }
+            
+            h2 {
+                font-size: 1.3rem;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Intro To Andy Chavez's Life</h1>
+            <h2>Lab Assignment</h2>
+        </header>
+        
+        <div class="content">
+            <div class="section">
+                <h3><i class="fas fa-user-graduate"></i> About Me</h3>
+                <p>I am a sophomore attending Albion College currently enrolled in the <span class="highlight">3-2 Dual Degree Program in Physics with a Concentration in Engineering as well as a minor in Applied Mathematics</span>. I am involved with <i>multiple</i> groups on campus such as Union Board, Rotaract Club, SPS, ASP, and am affiliated with Delta Tau Delta.</p>
+            </div>
+            
+            <div class="section">
+                <h3><i class="fas fa-coffee"></i> Work & Activities</h3>
+                <p>I currently work at our local Starbucks and while I am not in sports, I do recreationally play volleyball since I played Varsity in Highschool.</p>
+                <div class="image-container">
+                    <img src="https://github.com/user-attachments/assets/08c9ee97-a5a7-4106-b2f6-d2d9d3f945ad" alt="Andy Chavez">
+                </div>
+            </div>
+            
+            <div class="section">
+                <h3><i class="fas fa-heart"></i> Favorite Websites</h3>
+                <p>Some of my favorite websites include:</p>
+                <ul>
+                    <li><a href="https://www.coolmathgames.com/" target="_blank"><i class="fas fa-gamepad"></i> CoolMathGames</a></li>
+                    <li><a href="https://www.deepseek.com/" target="_blank"><i class="fas fa-robot"></i> DeepSeek</a></li>
+                    <li><a href="https://www.geoguessr.com/" target="_blank"><i class="fas fa-globe-americas"></i> GeoGuessr</a></li>
+                </ul>
+            </div>
+            
+            <div class="section">
+                <h3><i class="fas fa-envelope"></i> Contact Information</h3>
+                <p>The best way to reach me is by email: <span class="email">aac18@albion.edu</span></p>
+            </div>
+            
+            <div class="section">
+                <p>I hope this webpage has been pleasant to read and look at and I look forward to this webpage expanding and getting better as my knowledge of CS advances!</p>
+            </div>
+        </div>
+        
+        <footer>
+            <p class="thank-you">Thank you!</p>
+        </footer>
+    </div>
+</body>
+</html>
